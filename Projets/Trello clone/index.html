@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trello</title>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Workspace</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <!-- FIRST -->
+        <div class="items-containers" draggable="true">
+            <div class="top-containers">
+                <h2>Current</h2>
+                <button class="delete-containers-btn">X</button>
+            </div>
+
+            <ul>
+            </ul>
+            <button class="add-item-btn">Add am item</button>
+
+            <form autocomplete="off">
+                <div class="top-form-containers">
+                    <label for="item">Add a new item</label>
+                    <button type="button" class="close-form-btn">X</button>
+                </div>
+                    <input type="text" id="item">
+                    <span class="validation-msg"></span>
+                    <button type="submit">Submit</button>
+                
+            </form>
+        </div>
+
+        <!-- FIRST -->
+        <div class="items-containers" draggable="true">
+            <div class="top-containers">
+                <h2>To do</h2>
+                <button class="delete-containers-btn">X</button>
+            </div>
+
+            <ul>
+            </ul>
+            <button class="add-item-btn">Add am item</button>
+
+            <form autocomplete="off">
+                <div class="top-form-containers">
+                    <label for="item">Add a new item</label>
+                    <button type="button" class="close-form-btn">X</button>
+                </div>
+                    <input type="text" id="item">
+                    <span class="validation-msg"></span>
+                    <button type="submit">Submit</button>
+            </form>
+        </div>
+        <!-- FIRST -->
+        <div class="items-containers" draggable="true">
+            <div class="top-containers">
+                <h2>Finished</h2>
+                <button class="delete-containers-btn">X</button>
+            </div>
+
+            <ul>
+            </ul>
+            <button class="add-item-btn">Add am item</button>
+
+            <form autocomplete="off">
+                <div class="top-form-containers">
+                    <label for="item">Add a new item</label>
+                    <button type="button" class="close-form-btn">X</button>
+                </div>
+                    <input type="text" id="item">
+                    <span class="validation-msg"></span>
+                    <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- FIRST -->
+
+        <div class="add-new-containers">
+            <button class="add-container-btn">Add another containers</button>
+            <form autocomplete="off">
+
+                <div class="top-form-containers">
+                    <label for="new-containers">Add a new containers</label>
+                    <button type="button" class="close-form-btn">X</button>
+                </div>
+                    <input type="text" id="new-containers">
+                    <span class="validation-msg"></span>
+                    <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+
+
+    </div>
+
+
+    
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
