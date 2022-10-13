@@ -2,7 +2,9 @@
 
 npm install -g typescript = install le typescript pour tous les dossiers pour plus tard
 
-tsc.cmd script.ts = pour générer un fichier .js avec un .ts
+tsc.cmd script.ts = pour générer un fichier .js avec un .ts 
+OU
+npm install ts-node = ts-node myfile.ts                       
 
 tsc.cmd --init    = génère un tsconfig.json pour changer es5 en es6 par exmple
 
